@@ -73,7 +73,7 @@ namespace Mağaza_Örnek
             {
                 fiyat4.Text = "0";
             }
-            else if (listBox4.Text == "bot")
+            else if (listBox4.Text == "Bot")
             {
                 fiyat4.Text = "650";
             }
@@ -129,6 +129,8 @@ namespace Mağaza_Örnek
             richTextBox1.Text += "Öğrenci İndirimi : " + ogrenci + "\n";
             richTextBox1.Text += "_________________________________" + "\r";
             richTextBox1.Text += "Ödenecek Tutar : " + odenecekttr ;
+
+           
         }
     }
 }
